@@ -2409,6 +2409,7 @@ ul.social li a.fa-google-plus:hover {
   position: relative;
   color: #858484;
   padding: 4em 0;
+  background: #252122;
 }
 
 #footer:before {
@@ -2425,6 +2426,10 @@ ul.social li a.fa-google-plus:hover {
 
 #footer a {
   color: #c5c4c4;
+}
+
+.carousels {
+	width: 38em;
 }
 
 #footer h2,
@@ -2764,7 +2769,7 @@ ul.social li a.fa-google-plus:hover {
     width: 275px;
     z-index: 10002;
     color: #858484;
-    background-image: url("images/bg02.png");
+    background: #252122;
     box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
   }
 
@@ -2894,6 +2899,17 @@ ul.social li a.fa-google-plus:hover {
   footer {
     margin: 2em 0 0 0;
   }
+
+.sidebyside {
+    display: flex;
+    justify-content: center;
+}
+
+.carousels,
+iframe {
+	width: 100%;
+	height: 13em;
+}
 
   /* Box */
 
