@@ -2171,7 +2171,7 @@ ul.social li a.fa-google-plus:hover {
 #header {
   position: relative;
   background: #ffffff;
-  border-bottom: solid 1px #ccc;
+  /* border-bottom: solid 1px #ccc; */
   padding: 3em 0 4em 0;
   text-align: center;
 }
@@ -2294,8 +2294,8 @@ ul.social li a.fa-google-plus:hover {
   text-align: center;
   position: relative;
   padding: 8em 0;
-  margin: 1.65em 0 0 0;
-  height: 84vh;
+  margin: 2em 0 0 0;
+  height: 87vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -2385,6 +2385,45 @@ ul.social li a.fa-google-plus:hover {
   margin: 0;
 }
 
+/* Recommendations */
+
+.reco {
+  width: 67vw;
+  margin: 0 auto;
+}
+
+#recommendations {
+  background: #f7f7f7 url("images/bg02.png");
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding-top: 4em;
+}
+
+#recommendations .recocards {
+  width: 35vw;
+  display: flex;
+  align-items: center;
+  margin: 0 -10em;
+}
+
+#recommendations .recocards img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+#recommendations .recocards .recocon {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+#recommendations .recocards .recocon p {
+  text-align: justify;
+  font-style: italic;
+}
+
 /* Main */
 
 #main {
@@ -2470,7 +2509,9 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #footer header img {
-  height: 25em;
+  width: 100%;
+  height: auto;
+  border-radius: 1em;
 }
 
 /* Copyright */
@@ -2914,6 +2955,28 @@ ul.social li a.fa-google-plus:hover {
 iframe {
 	width: 100%;
 	height: 13em;
+}
+
+#recommendations {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
+#recommendations .recocards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#recommendations .recocards .recocon {
+  display: flex;
+  flex-direction: column;
+}
+
+#recommendations .recocards .recocon h3 {
+  text-align: center;
 }
 
   /* Box */
