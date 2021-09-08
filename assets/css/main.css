@@ -147,7 +147,7 @@ mark {
 }
 
 input::-moz-focus-inner {
-  border: 0;
+  kayorder: 0;
   padding: 0;
 }
 
@@ -265,6 +265,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: #000;
 }
 
 br.clear {
@@ -1795,7 +1796,8 @@ button.large,
 
 .image img {
   display: block;
-  width: 100%;
+  width: auto;
+  height: 14em;
 }
 
 .image.centered {
