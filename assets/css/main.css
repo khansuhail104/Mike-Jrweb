@@ -2981,6 +2981,10 @@ ul.social li a.fa-google-plus:hover {
     text-align: center;
   }
 
+  #recommendations .recocards .recocon h5 {
+    text-align: center;
+  }
+
   /* Box */
 
   .box {
