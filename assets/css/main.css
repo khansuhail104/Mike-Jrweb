@@ -147,7 +147,7 @@ mark {
 }
 
 input::-moz-focus-inner {
-  kayorder: 0;
+  border: 0;
   padding: 0;
 }
 
@@ -2188,9 +2188,9 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #header h6 {
-	font-size: 0.55em;
-	text-decoration: none;
-	font-weight: 500;
+  font-size: 0.55em;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 /* Nav */
@@ -2403,7 +2403,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #recommendations .recocards {
-  width: 35vw;
+  width: 50vw;
   display: flex;
   align-items: center;
   margin: 0 -10em;
@@ -2949,37 +2949,41 @@ ul.social li a.fa-google-plus:hover {
     margin: 2em 0 0 0;
   }
 
-.sidebyside {
+  .sidebyside {
     display: flex;
     justify-content: center;
-}
+  }
 
-iframe {
-	width: 100%;
-	height: 13em;
-}
+  iframe {
+    width: 100%;
+    height: 13em;
+  }
 
-#recommendations {
-  display: flex;
-  flex-flow: column wrap;
-  align-content: center;
-}
+  #recommendations {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+  }
 
-#recommendations .recocards {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  #recommendations .recocards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-#recommendations .recocards .recocon {
-  display: flex;
-  flex-direction: column;
-}
+  #recommendations .recocards .recocon {
+    display: flex;
+    flex-direction: column;
+  }
 
-#recommendations .recocards .recocon h3 {
-  text-align: center;
-}
+  #recommendations .recocards .recocon h3 {
+    text-align: center;
+  }
+
+  #recommendations .recocards .recocon h5 {
+    text-align: center;
+  }
 
   /* Box */
 
