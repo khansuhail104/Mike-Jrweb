@@ -1670,7 +1670,7 @@ footer {
 
 .box {
   background: #ffffff;
-  border-bottom: solid 1px #ccc;
+  /* border-bottom: solid 1px #ccc; */
   padding: 2.75em 1.75em 2.75em 1.75em;
 }
 
@@ -2426,6 +2426,21 @@ ul.social li a.fa-google-plus:hover {
   font-style: italic;
 }
 
+/* Voice-overs */
+
+#voiceovers {
+  background: #f7f7f7 url("images/bg02.png");
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-column-gap: 5em;
+  grid-row-gap: 3em;
+  padding: 4em 0;
+}
+
+#voiceovers .voicecards {
+  width: 432px;
+}
+
 /* Main */
 
 #main {
@@ -2511,7 +2526,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #footer header img {
-  width: 100%;
+  width: 35em;
   height: auto;
   border-radius: 1em;
 }
@@ -2985,6 +3000,23 @@ ul.social li a.fa-google-plus:hover {
     text-align: center;
   }
 
+#footer header img {
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+#voiceovers {
+  display: flex;
+  flex-direction: column;
+}
+
+#voiceovers .voicecards {
+  width: 100%;
+}
   /* Box */
 
   .box {
