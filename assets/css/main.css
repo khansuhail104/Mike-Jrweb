@@ -1650,7 +1650,7 @@ header.major {
   text-align: center;
   border-top: solid 1px #ccc;
   top: 1em;
-  margin: 0 0 3em 0;
+  margin: 0;
 }
 
 header.major h2 {
@@ -2399,7 +2399,6 @@ ul.social li a.fa-google-plus:hover {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  padding-top: 4em;
 }
 
 #recommendations .recocards {
@@ -2434,7 +2433,7 @@ ul.social li a.fa-google-plus:hover {
   grid-template-columns: repeat(3, 30%);
   grid-column-gap: 5em;
   grid-row-gap: 3em;
-  padding: 4em 0;
+  padding: 4em 0 0 0;
 }
 
 #voiceovers .voicecards {
@@ -2446,7 +2445,7 @@ ul.social li a.fa-google-plus:hover {
 #main {
   position: relative;
   background: #f7f7f7 url("images/bg02.png");
-  padding: 4em 0 4em 0;
+  padding: 0 0 4em 0;
 }
 
 #main:before {
@@ -2523,6 +2522,10 @@ ul.social li a.fa-google-plus:hover {
 
 #footer header h2 {
   font-size: 1.75em;
+}
+
+#footer header h2.name {
+  text-align: center;
 }
 
 #footer header img {
@@ -3012,6 +3015,8 @@ ul.social li a.fa-google-plus:hover {
 #voiceovers {
   display: flex;
   flex-direction: column;
+  padding : 1em 0 0 0;
+    grid-row-gap: 1em;  
 }
 
 #voiceovers .voicecards {
