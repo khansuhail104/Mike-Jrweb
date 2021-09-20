@@ -2402,7 +2402,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #recommendations .recocards {
-  width: 50vw;
+  width: 65vw;
   display: flex;
   align-items: center;
   margin: 0 -10em;
@@ -3003,25 +3003,25 @@ ul.social li a.fa-google-plus:hover {
     text-align: center;
   }
 
-#footer header img {
-  width: 100%;
-}
+  #footer header img {
+    width: 100%;
+  }
 
-.image img {
-  width: 100%;
-  height: auto;
-}
+  .image img {
+    width: 100%;
+    height: auto;
+  }
 
-#voiceovers {
-  display: flex;
-  flex-direction: column;
-  padding : 1em 0 0 0;
-    grid-row-gap: 1em;  
-}
+  #voiceovers {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 0 0;
+    grid-row-gap: 1em;
+  }
 
-#voiceovers .voicecards {
-  width: 100%;
-}
+  #voiceovers .voicecards {
+    width: 100%;
+  }
   /* Box */
 
   .box {
