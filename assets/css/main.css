@@ -2170,11 +2170,17 @@ ul.social li a.fa-google-plus:hover {
   justify-content: space-between;
 }
 
+.hori {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
 #header {
   position: relative;
   background: #ffffff;
   /* border-bottom: solid 1px #ccc; */
-  padding: 3em 0 4em 0;
+  padding: 3em 0 2em 0;
   text-align: center;
 }
 
@@ -2185,6 +2191,7 @@ ul.social li a.fa-google-plus:hover {
   letter-spacing: -0.035em;
   line-height: 1;
   margin-left: 1em;
+  margin-right: 10px;
 }
 
 #header h6 {
@@ -2390,8 +2397,9 @@ ul.social li a.fa-google-plus:hover {
 /* Recommendations */
 
 .reco {
-  width: 67vw;
+  width: auto;
   margin: 0 auto;
+  padding: 0 18.75rem;
 }
 
 #recommendations {
@@ -2425,6 +2433,7 @@ ul.social li a.fa-google-plus:hover {
   font-style: italic;
 }
 
+
 /* Voice-overs */
 
 #voiceovers {
@@ -2445,7 +2454,7 @@ ul.social li a.fa-google-plus:hover {
 #main {
   position: relative;
   background: #f7f7f7 url("images/bg02.png");
-  padding: 0 0 4em 0;
+  padding: 2em 0 4em 0;
 }
 
 #main:before {
@@ -3006,6 +3015,16 @@ ul.social li a.fa-google-plus:hover {
   #footer header img {
     width: 100%;
   }
+
+  .hori {
+    width: 75vw;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reco {
+    padding: 0 0.75rem;
+}
 
   .image img {
     width: 100%;
