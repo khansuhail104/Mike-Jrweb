@@ -2394,6 +2394,63 @@ ul.social li a.fa-google-plus:hover {
   margin: 0;
 }
 
+/* Intro Video */
+
+.ivideo {
+  width: auto;
+  margin: 0 auto;
+  padding: 0 18.75rem;
+}
+
+#videocard {
+  background: #f7f7f7 url("images/bg02.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0;
+}
+
+#videocard p {
+  padding-top: 1em;
+  width: 50vw;
+  text-align: center;
+}
+
+/* About */
+
+.iabout {
+  width: auto;
+  margin: 0 auto;
+  padding: 0 18.75rem;
+}
+
+#aboutcard {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 0;
+  align-items: center;
+}
+
+#aboutcard .aboutcon {
+  width: 65vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1em 0;
+  justify-content: space-around;
+}
+
+#aboutcard .aboutcon img {
+  height: 400px;
+  width: auto;
+  border-radius: 1em;
+}
+
+#aboutcard .aboutcon p{
+  padding: 4em;
+  text-align: justify;
+}
+
 /* Recommendations */
 
 .reco {
@@ -3022,6 +3079,42 @@ ul.social li a.fa-google-plus:hover {
     align-items: center;
   }
 
+  .ivideo {
+    padding: 0 0.75rem;
+  }
+
+  #videocard iframe {
+    width: 413px;
+    height: 232px;;
+    padding: 0.75rem;
+  }
+
+  #videocard p {
+    width: 95%;
+    padding: 2em 0.75rem;
+  }
+
+  .iabout {
+    padding: 0 0.75rem;
+  }
+
+  #aboutcard .aboutcon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #aboutcard .aboutcon img {
+    padding: 0 1em;
+    width: 100%;
+    height: auto;
+    border-radius: 2em;
+  }
+
+  #aboutcard .aboutcon p {
+    padding: 2em; 
+  }
+  
   .reco {
     padding: 0 0.75rem;
 }
